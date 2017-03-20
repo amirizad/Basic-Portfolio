@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>About Me</title>
+        <title>Contact Me</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
@@ -14,19 +14,24 @@
                 <p class="header bigsize">Amir Izadpanah</p>
             </div>
             <ul class="navbar-nav">
-                <li><a href="#">About</a></li>
+                <li><a href="index.html">About</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </header>
         <section class="container">
             <article class="content">
-                <p class="header bigsize my-color">About Me</p>
+                <p class="header bigsize my-color">Contact</p>
                 <hr class="long">
-                <img class="photo" src="assets/images/amir.jpg" alt="My Avatar">
-                <p class="desc">
-                    Since I can remember, I knew this profession was my call in, I love it and I strived to be the very best at it one day, to that end I started study in software engineering at AMN University and started to work simultaneously from the 3rd year of university in a part time position in SAJ company which is a software production company.<br> After I graduated from university, I continued working there fulltime. I learned a lot by working on the projects and also I learned a lot about the tea...(line truncated)...
-                </p>
+                <form action="" method="post" accept-charset="utf-8">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" value="" placeholder="John Smith">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" value="" placeholder="example@gmail.com">
+                    <label for="message">Message</label>
+                    <textarea name="message" rows="5"></textarea>
+                    <button type="submit" value="Submit" class="my-bgcolor">Submit</button>
+                </form>
             </article>
             <aside class="sidebar">
                 <p class="header midsize center my-color">Connect with Me</p>
