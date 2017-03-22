@@ -35,6 +35,9 @@ button{
 	width: 135px;
 	line-height: 45px;
 }
+.shadow{
+	box-shadow: 5px 5px 5px #888888;
+}
 .sidebar{
 	right: 0;
 	width: 214px;
@@ -51,7 +54,7 @@ button{
 	width: calc(100% - 370px);
 	padding: 40px 30px 30px 30px;
 	background-color: #fff;
-	margin: 0 40px 100px 0;
+	margin: 0 40px 150px 0;
 }
 .my-color{
 	color:#000066;
