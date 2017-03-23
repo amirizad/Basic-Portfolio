@@ -3,6 +3,7 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 	color: #666;
 	min-width: 1024px;
+	overflow-y: scroll;
 }
 hr{
     margin-top: 30px;
@@ -17,23 +18,6 @@ hr.short{
 hr.long{
 	border-width: 3px;
 	border-color: #ddd;
-}
-label, button{
-	font-size: 20px;
-	color: #666;
-}
-input, textarea{
-	padding: 5px;
-	width: 98%;
-	margin:10px 0 20px 0;
-	line-height: 30px;
-	border:1px solid #ddd;
-	border-radius: 5px;
-}
-button{
-	border:0;
-	width: 135px;
-	line-height: 45px;
 }
 .shadow{
 	box-shadow: 5px 5px 5px #888888;
@@ -104,11 +88,13 @@ button{
     margin-right:20px;
     padding-right:20px;
 }
-
 .navbar-nav li > a {
 	padding: 10px 0;
 	color: #b4b4b4;
 	text-decoration: none;
+}
+.active{
+	color: #000066 !important;
 }
 .photo{
 	float: left;
@@ -128,18 +114,45 @@ button{
 }
 .portfolioimg{
 	position: relative;
-	float: left;
+	display: inline-block;
 	width: 270px;
-	margin: 0 40px 60px 0;
+	height: 200px;
+	margin: 30px 20px;
 	border:1px solid #ddd;
+}
+.portfolioimg img{
+	opacity: 0.7;
+	cursor: pointer;
+}
+.portfolioimg img:hover{
+	opacity: 1;
 }
 .portfolioimg span{
 	position: absolute; 
-	top: 150px; 
+	top: 140px; 
 	left: 0; 
-	width: 270px; 
-	font: bold 24px/45px Helvetica, Sans-Serif; 
+	width: 270px;
+	font: bold 24px/45px cursive; 
 	background: rgba(0, 0, 102, 0.7);
+}
+.lblfont{
+	font-size: 20px;
+	color: #666;
+}
+.frminput{
+	padding: 5px;
+	width: 98%;
+	margin:10px 0 20px 0;
+	line-height: 30px;
+	border:1px solid #ddd;
+	border-radius: 5px;
+}
+.frmbtn{
+	font-size: 20px;
+	border:0;
+	width: 135px;
+	line-height: 45px;
+	border-radius: 5px;
 }
 .footer {
 	background-color: #666;

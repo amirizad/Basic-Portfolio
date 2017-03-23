@@ -13,9 +13,9 @@
             <div class="navbar-header center my-bgcolor">
                 <p class="header bigsize">Amir Izadpanah</p>
             </div>
-            <ul class="navbar-nav">
+            <ul id="navbaritems" class="navbar-nav">
                 <li><a href="index.html">About</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="#" class="active">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </header>
@@ -23,35 +23,36 @@
             <article class="content shadow">
                 <p class="header bigsize my-color">Portfolio</p>
                 <hr class="long">
-                <div class="portfolioimg">
-                    <img src="assets/images/webdev.png" title="HTML CSS JavaScript" alt="HTML CSS JavaScript">
-                    <span class="my-bgcolor center">HTML CSS JS</span>
+                <div class="center">
+                    <div class="portfolioimg">
+                        <img src="assets/images/webdev.png" title="HTML CSS JavaScript" alt="HTML CSS JavaScript">
+                        <span class="my-bgcolor center">HTML CSS JS</span>
+                    </div>
+                    <div class="portfolioimg">
+                        <img src="assets/images/j-query.png" title="jQuery" alt="jQuery">
+                        <span class="my-bgcolor center">jQuery</span>
+                    </div>
+                    <div class="portfolioimg">
+                        <img src="assets/images/bootstrap.png" title="Bootstrap" alt="Bootstrap">
+                        <span class="my-bgcolor center">Bootstrap</span>
+                    </div>
+                    <div class="portfolioimg">
+                        <img src="assets/images/angularjs.png" title="AngularJS" alt="AngularJS">
+                        <span class="my-bgcolor center">Angular.JS</span>
+                    </div>
+                    <div class="portfolioimg">
+                        <img src="assets/images/reactjs.png" title="ReactJS" alt="ReactJS">
+                        <span class="my-bgcolor center">React.JS</span>
+                    </div>
+                    <div class="portfolioimg">
+                        <img src="assets/images/nodejs.png" title="NodeJS" alt="NodeJS">
+                        <span class="my-bgcolor center">Node.JS</span>
+                    </div>
+                    <div class="portfolioimg">
+                        <img src="assets/images/csharp.png" title="ASP .net - C#" alt="ASP .net - C#">
+                        <span class="my-bgcolor center">ASP.net - C#</span>
+                    </div>
                 </div>
-                <div class="portfolioimg">
-                    <img src="assets/images/j-query.png" title="jQuery" alt="jQuery">
-                    <span class="my-bgcolor center">jQuery</span>
-                </div>
-                <div class="portfolioimg">
-                    <img src="assets/images/bootstrap.png" title="Bootstrap" alt="Bootstrap">
-                    <span class="my-bgcolor center">Bootstrap</span>
-                </div>
-                <div class="portfolioimg">
-                    <img src="assets/images/angularjs.png" title="AngularJS" alt="AngularJS">
-                    <span class="my-bgcolor center">Angular JS</span>
-                </div>
-                <div class="portfolioimg">
-                    <img src="assets/images/reactjs.png" title="ReactJS" alt="ReactJS">
-                    <span class="my-bgcolor center">React JS</span>
-                </div>
-                <div class="portfolioimg">
-                    <img src="assets/images/nodejs.png" title="NodeJS" alt="NodeJS">
-                    <span class="my-bgcolor center">Node JS</span>
-                </div>
-                <div class="portfolioimg">
-                    <img src="assets/images/csharp.png" title="ASP .net - C#" alt="ASP .net - C#">
-                    <span class="my-bgcolor center">ASP .net - c#</span>
-                </div>
-
 
             </article>
             <aside class="sidebar shadow">
@@ -65,11 +66,9 @@
                 </div>
             </aside>
         </section>
-        <footer>
-            <div class="footer center">
-                <div class="colorbar"></div>
-                <div>&copy; Copyright <script>document.write(new Date().getFullYear())</script> Amir Izadpanah</div>
-            </div>
+        <footer class="footer center">
+            <div class="colorbar"></div>
+            <div>&copy; Copyright <script>document.write(new Date().getFullYear())</script> Amir Izadpanah</div>
         </footer>
     </body>
 </html>
